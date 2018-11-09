@@ -1,5 +1,5 @@
 {
-    "name": "digitickets/omnipay-barclays-epdq",
+    "name": "shopblocks/omnipay-barclays-epdq",
     "type": "library",
     "description": "Barclays ePDQ driver for the Omnipay payment processing library.",
     "keywords": [
@@ -11,9 +11,13 @@
         "barclays",
         "epdq"
     ],
-    "homepage": "https://github.com/digitickets/omnipay-barclays-epdq",
+    "homepage": "https://github.com/shopblocks/omnipay-barclays-epdq",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Shopblocks",
+            "homepage": "https://www.shopblocks.com/"
+        },
         {
             "name": "Adrian Macneil",
             "email": "adrian@adrianmacneil.com"
