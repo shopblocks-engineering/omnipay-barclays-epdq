@@ -306,7 +306,7 @@ class EssentialPurchaseRequest extends AbstractRequest
 
     public function calculateSha($data, $shaKey)
     {
-        ksort($data);
+        uksort($data, "strnatcmp");
 
         $shaString = '';
         foreach ($data as $key => $value) {
