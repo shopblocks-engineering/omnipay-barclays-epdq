@@ -1,10 +1,8 @@
 # Omnipay: Barclays ePDQ
 
-**Barclays ePDQ driver for the Omnipay PHP payment processing library**
+This package has been forked from the seemingly abandoned samvaughton and digitickets repositories. New bug fixes have been added here November 2018.
 
-[![Build Status](https://travis-ci.org/samvaughton/omnipay-barclays-epdq.png?branch=master)](https://travis-ci.org/samvaughton/omnipay-barclays-epdq)
-[![Latest Stable Version](https://poser.pugx.org/samvaughton/omnipay-barclays-epdq/version.png)](https://packagist.org/packages/samvaughton/omnipay-barclays-epdq)
-[![Total Downloads](https://poser.pugx.org/samvaughton/omnipay-barclays-epdq/d/total.png)](https://packagist.org/packages/samvaughton/omnipay-barclays-epdq)
+**Barclays ePDQ driver for the Omnipay PHP payment processing library**
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements WorldPay support for Omnipay.
@@ -17,7 +15,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "samvaughton/omnipay-barclays-epdq": "~2.0"
+        "shopblocks/omnipay-barclays-epdq": "~2.0"
     }
 }
 ```
