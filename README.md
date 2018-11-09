@@ -9,11 +9,16 @@ processing library for PHP 5.3+. This package implements WorldPay support for Om
 
 ## Installation
 
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
-to your `composer.json` file:
+Update your composer file as follows in order to use this forked repo:
 
 ```json
 {
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/shopblocks/omnipay-barclays-epdq"  
+        }  
+    ], 
     "require": {
         "shopblocks/omnipay-barclays-epdq": "~2.0"
     }
