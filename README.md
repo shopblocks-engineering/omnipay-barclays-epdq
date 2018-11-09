@@ -20,7 +20,7 @@ Update your composer file as follows in order to use this forked repo:
         }  
     ], 
     "require": {
-        "shopblocks/omnipay-barclays-epdq": "~2.0"
+        "shopblocks/omnipay-barclays-epdq": "~3.0"
     }
 }
 ```
