@@ -23,7 +23,9 @@ class EssentialGateway extends AbstractGateway
             'clientId' => '',
             'testMode' => false,
             'language' => 'en_US',
-            'callbackMethod' => 'POST'
+            'callbackMethod' => 'POST',
+            'shaIn' => '',
+            'shaOut' => ''
         );
     }
 
