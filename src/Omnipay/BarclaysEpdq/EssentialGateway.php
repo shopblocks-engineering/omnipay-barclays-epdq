@@ -53,6 +53,14 @@ class EssentialGateway extends AbstractGateway
         );
     }
 
+    public function refund(array $parameters = [])
+    {
+        return $this->createRequest(
+            '\Omnipay\BarclaysEpdq\Message\EssentialRefundRequest',
+            array_merge($this->parameters->all(), $parameters)
+        );
+    }
+
     public function getClientId()
     {
         return $this->getParameter('clientId');
