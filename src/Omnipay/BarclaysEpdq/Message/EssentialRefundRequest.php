@@ -34,20 +34,12 @@ class EssentialRefundRequest extends AbstractRequest {
         $data['AMOUNT'] = $this->getAmountInteger();
 
         $data['OPERATION'] = "RFD";
-        $data['PSWD'] = $this->getRefundPassword();
-        $data['USERID'] = $this->getRefundUser();
+        $data['PSWD'] = $this->getPassword();
+        $data['USERID'] = $this->getUserid();
 
         $data['SHASIGN'] = $this->calculateSha($data, $this->getShaIn());
 
         return $data;
-    }
-
-    public function getRefundPassword() {
-        return "10ngLongBARC!";
-    }
-
-    public function getRefundUser() {
-        return "refund";
     }
 
     public function sendData($data) {

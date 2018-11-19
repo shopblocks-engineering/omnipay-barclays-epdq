@@ -136,4 +136,24 @@ class EssentialGateway extends AbstractGateway
     {
         return $this->setParameter('language', $value);
     }
+
+    public function getUserid()
+    {
+        return $this->getParameter('userid');
+    }
+
+    public function setUserid($value)
+    {
+        return $this->setParameter('userid', $value);
+    }
+
+    public function getPassword()
+    {
+        return $this->getParameter('password');
+    }
+
+    public function setPassword($value)
+    {
+        return $this->setParameter('password', $value);
+    }
 }
